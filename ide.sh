@@ -9,3 +9,6 @@ mkdir ~/.config/sublime-text-3/Packages/SublimeClang/src/build
 cd ~/.config/sublime-text-3/Packages/SublimeClang/src/build
 cmake ..
 sudo make -j8
+sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl
+sudo mkdir ~/.config/sublime-text-3/Packages/User
+sudo cp sublime-settings/user/* ~/.config/sublime-text-3/Packages/User
