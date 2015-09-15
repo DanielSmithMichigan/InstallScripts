@@ -1,3 +1,4 @@
+sudo apt-get --force-yes -y install wget
 git config --global user.email "dsmith@ltu.edu"
 git config --global user.name "dansmith"
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
