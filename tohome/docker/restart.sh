@@ -1,2 +1,2 @@
-bash ~/opencv/env/container/stop.sh
-bash ~/opencv/env/container/start.sh
+bash ~/docker/stop.sh
+bash ~/docker/start.sh
