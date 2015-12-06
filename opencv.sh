@@ -6,7 +6,7 @@ sudo apt-get --force-yes -y install libjpeg8-dev libtiff4-dev libjasper-dev libp
 sudo apt-get --force-yes -y install libgtk2.0-dev libxtst-dev
 sudo apt-get --force-yes -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
 sudo apt-get --force-yes -y install libatlas-base-dev gfortran libxtst-dev
-sudo apt-get --force-yes -y install tesseract-ocr
+sudo apt-get --force-yes -y install tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev
 mkdir ~/install
 cd ~/install
 git clone https://github.com/Itseez/opencv_contrib.git
